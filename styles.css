@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#000;
+  height:100%;
+  width:100%;
+}
+
+div {
+display: table;
+text-align: center;
+}
+.echo, .golf{
+  clear: left;
+}
+
+.alpha {
+  background-color: red;
+  height: 100px;
+  width: 960px;
+}
+
+.bravo {
+  background-color: green;
+  height: 600px;
+  width: 200px;
+}
+
+.charlie {
+  background-color: blue;
+  height: 200px;
+  width: 380px;
+}
+
+.delta {
+  background-color: yellow;
+  height: 200px;
+  width: 380px;
+}
+
+.echo {
+  background-color: orange;
+  height: 250px;
+  width: 190px;
+}
+
+.foxtrot {
+  background-color: cyan;
+  height: 250px;
+  width: 190px;
+}
+
+.golf {
+  background-color: white;
+  height: 250px;
+  width: 190px;
+}
+
+.hotel {
+  background-color: olive;
+  display: inline-block;
+  height: 250px;
+  width: 190px;
+}
+
+.india {
+  background-color: purple;
+  height: 150px;
+  width: 760px;
+}
+
+/*.half {
+  display: inline;
+}*/
+
+@media only screen and (max-width: 960px) {
+  body {
+    background-color: tan;
+
+  }
+  div {
+  display: inline-block;
+  }
+
+.delta {
+  clear: left;
+}
+
+  .alpha {
+    height: 75px;
+    width: 480px;
+  }
+
+  .bravo {
+    height: 150px;
+    width: 480px;
+  }
+
+.delta {
+  float: left;
+}
+
+  .charlie, .delta {
+    height: 125px;
+    width: 480px;
+  }
+
+
+  .echo, .foxtrot, .golf, .hotel {
+    height: 250px;
+    width: 240px;
+  }
+
+
+  .india {
+    height: 80px;
+    width: 480px;
+  }
+
+  @media only screen and (min-width: 480px) {
+
+  }
+}
